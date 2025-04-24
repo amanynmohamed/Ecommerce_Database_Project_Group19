@@ -27,6 +27,7 @@ We collaboratively designed an *E-commerce database* and an *Entity-Relationship
 ## 📂 Repository Contents
 - *ecommerce.sql* — Database creation script.
 - *ERD Diagram* — Entity-Relationship Diagram (in [Draw.io/Lucidchart/Workbench] format).
+![ERD Diagram](Assets/ERD.png)
 
 ## 🤝 Contributors
 ## 👥 Contributors
