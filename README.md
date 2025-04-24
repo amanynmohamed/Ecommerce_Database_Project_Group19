@@ -49,7 +49,7 @@ The following individuals have contributed to this project:
 
 <br /><br />
 
-<a href="https://github.com/ericmunjuri" target="_blank">
+<a href="https://github.com/RICCOM" target="_blank">
   <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="Eric Munjuri"/>
   <br />
   <b>Eric Munjuri</b>
