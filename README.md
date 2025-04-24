@@ -29,8 +29,40 @@ We collaboratively designed an *E-commerce database* and an *Entity-Relationship
 - *ERD Diagram* — Entity-Relationship Diagram (in [Draw.io/Lucidchart/Workbench] format).
 
 ## 🤝 Contributors
-- Amany Nabil Ahmed
-- shophia Nakhanu
-- ⁠Eric munjuri
-- ⁠Stephen David oduor
+## 👥 Contributors
+The following individuals have contributed to this project:
+
+<div>
+<a href="https://github.com/amanynabil" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="Amany Nabil Ahmed"/>   
+  <br />
+  <b>Amany Nabil Ahmed</b>
+</a>
+
+<br /><br />
+
+<a href="https://github.com/nakhanu" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px" alt="Sophia Nakhanu"/>   
+  <br />
+  <b>Sophia Nakhanu</b>
+</a>
+
+<br /><br />
+
+<a href="https://github.com/ericmunjuri" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="Eric Munjuri"/>
+  <br />
+  <b>Eric Munjuri</b>
+</a>
+
+<br /><br />
+
+<a href="https://github.com/stephendavidoduor" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="Stephen David Oduor"/>
+  <br />
+  <b>Stephen David Oduor</b>
+</a>
+
+</div>
+
 - 
