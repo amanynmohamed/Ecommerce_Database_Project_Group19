@@ -1,7 +1,7 @@
 # 🛍️ E-commerce Database Design Project
 
 ## 🎯 Objective
-This project is part of **Peer Group 19's** database design assignment, aimed at mastering relational database concepts by collaboratively developing a real-world **E-commerce Database** system.
+This project is aimed at mastering relational database concepts by collaboratively developing a real-world **E-commerce Database** system.
 
 ---
 
@@ -36,8 +36,8 @@ We designed a comprehensive Entity-Relationship Diagram (ERD) and implemented th
 
 ---
 
-## 🖼️ ERD Diagram
-A visual representation of the database schema:
+## 📌 Entity Relationship Diagram (ERD)
+This ERD was reverse-engineered from the actual SQL schema using MySQL Workbench:
 
 ![ERD Diagram](Assets/ERD.png)
 
