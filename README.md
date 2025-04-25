@@ -1,5 +1,11 @@
 # 🛍️ E-commerce Database Design Project
 
+![MySQL](https://img.shields.io/badge/DB-MySQL-blue)
+![Collaborators](https://img.shields.io/badge/Team-4%20Members-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
 ## 🎯 Objective
 This project is aimed at mastering relational database concepts by collaboratively developing a real-world **E-commerce Database** system.
 
@@ -19,41 +25,45 @@ We designed a comprehensive Entity-Relationship Diagram (ERD) and implemented th
 ---
 
 ## 🗃️ Key Database Tables
-| Table | Description |
-|-------|-------------|
-| `brand` | Stores brand names. |
-| `product_category` | Classifies products into categories. |
-| `product` | Holds core product details. |
-| `product_image` | Stores image URLs for each product. |
-| `color` | Lists available product colors. |
-| `size_category` | Groups size types (e.g., clothing sizes). |
-| `size_option` | Lists specific size values. |
-| `product_variation` | Links products to color and size variations. |
-| `product_item` | Represents a specific variation in stock. |
-| `attribute_category` | Groups product attributes (e.g., tech specs). |
-| `attribute_type` | Defines the type of each attribute. |
-| `product_attribute` | Stores custom attribute values per product. |
+
+| Table                 | Description                                          |
+|----------------------|------------------------------------------------------|
+| `brand`              | Stores brand names.                                  |
+| `product_category`   | Classifies products into categories.                 |
+| `product`            | Holds core product details.                          |
+| `product_image`      | Stores image URLs for each product.                  |
+| `color`              | Lists available product colors.                      |
+| `size_category`      | Groups size types (e.g., clothing sizes).            |
+| `size_option`        | Lists specific size values.                          |
+| `product_variation`  | Links products to color and size variations.         |
+| `product_item`       | Represents a specific variation in stock.            |
+| `attribute_category` | Groups product attributes (e.g., tech specs).        |
+| `attribute_type`     | Defines the type of each attribute.                  |
+| `product_attribute`  | Stores custom attribute values per product.          |
 
 ---
 
 ## 📌 Entity Relationship Diagram (ERD)
+
 This ERD was reverse-engineered from the actual SQL schema using MySQL Workbench:
 
-![ERD Diagram](Assets/ERD.png)
+![ERD Diagram](./Assets/ERD.png)
 
 ---
 
 ## 📁 Repository Contents
-- `ecommerce.sql` – Full SQL schema creation script
-- `Assets/ERD.png` – ER diagram visual
-- `README.md` – Project overview and documentation
+
+- `ecommerce.sql` – Full SQL schema creation script  
+- `Assets/ERD.png` – ER diagram visual  
+- `README.md` – Project overview and documentation  
 
 ---
 
 ## 👩‍💻 How to Use This Project
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/E-Commercedb.git
+   git clone https://github.com/yourusername/ecommerce-db.git
    ```
 2. Open `ecommerce.sql` in MySQL Workbench or any MySQL client.
 3. Run the script to create the database and tables.
@@ -61,8 +71,13 @@ This ERD was reverse-engineered from the actual SQL schema using MySQL Workbench
 
 ---
 
-## 🤝 Contributors
-We collaborated as a team to bring this project to life. Below are the amazing contributors:
+## 🧰 Tech Stack
+
+- 🗄️ **Database**: MySQL  
+- 🖥️ **Design Tool**: MySQL Workbench  
+- 🧑‍💻 **Version Control**: Git & GitHub  
+
+---
 
 ## 👥 Contributors
 
@@ -70,7 +85,7 @@ We collaborated as a team to bring this project to life. Below are the amazing c
   <tr>
     <td align="center" width="25%">
       <a href="https://github.com/amanynabil" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Amany Nabil Ahmed"/>
+        <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Amany Nabil Ahmed"/>
         <br /><b>Amany Nabil Ahmed</b>
       </a>
     </td>
@@ -82,30 +97,36 @@ We collaborated as a team to bring this project to life. Below are the amazing c
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/RICCOM" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Eric Munjuri"/>
+        <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Eric Munjuri"/>
         <br /><b>Eric Munjuri</b>
       </a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/steviedave" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Stephen David Oduor"/>
+        <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Stephen David Oduor"/>
         <br /><b>Stephen David Oduor</b>
       </a>
     </td>
   </tr>
 </table>
+
 ---
 
 ## 📌 Notes
+
 - All image URLs used in the database are sourced from [Pexels](https://pexels.com), which provides free high-quality images.
 - The project follows MySQL best practices, including key constraints and normalization.
 
 ---
 
+## 📄 License
+
+This project is licensed under the **MIT License**. Feel free to use, modify, or build upon it.
+
+---
+
 ## ⭐ Final Thoughts
+
 This project was an incredible learning experience in database design and team collaboration. We are proud to showcase it as a foundational block for any e-commerce application.
 
-> “Alone we can do so little; together we can do so much.” — Helen Keller
-
-
-- 
+> “Alone we can do so little; together we can do so much.” — *Helen Keller*
