@@ -195,3 +195,25 @@ INSERT INTO product_attribute (product_id, attribute_type_id, value)
 VALUES  (1, 1, '1.2kg'), (2, 3, '6GB'), (3, 4, 'Snapdragon 8 Gen 1'),
         (4, 5, 'Slim Fit'), (5, 6, '8K Gaming'), (6, 3, '16GB'),
         (7, 4, 'Ryzen 5'), (8, 3, '32GB'), (9, 9, '36 hours'), (10, 10, '2 years');
+
+
+-- CREATING USERS AND GRANTING PRIVILEGES
+
+-- Create an admin user with full access to the ecommerce database
+CREATE USER 'admin_user'@'localhost' IDENTIFIED BY 'AdminPass123!';
+GRANT ALL PRIVILEGES ON ecommerce.* TO 'admin_user'@'localhost';
+
+-- Create an inventory manager with permission to view and update product-related tables
+CREATE USER 'inventory_manager'@'localhost' IDENTIFIED BY 'InventoryPass123!';
+GRANT SELECT, INSERT, UPDATE ON ecommerce.product TO 'inventory_manager'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON ecommerce.product_item TO 'inventory_manager'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON ecommerce.product_image TO 'inventory_manager'@'localhost';
+
+-- Create a sales viewer with read-only access to product and category data
+CREATE USER 'sales_viewer'@'localhost' IDENTIFIED BY 'ViewerPass123!';
+GRANT SELECT ON ecommerce.product TO 'sales_viewer'@'localhost';
+GRANT SELECT ON ecommerce.product_item TO 'sales_viewer'@'localhost';
+GRANT SELECT ON ecommerce.product_category TO 'sales_viewer'@'localhost';
+
+-- Applying the privilege changes
+FLUSH PRIVILEGES;
