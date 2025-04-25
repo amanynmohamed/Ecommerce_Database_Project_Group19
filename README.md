@@ -87,7 +87,7 @@ We collaborated as a team to bring this project to life. Below are the amazing c
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/stephendavidoduor" target="_blank">
+      <a href="https://github.com/steviedave" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Stephen David Oduor"/>
         <br /><b>Stephen David Oduor</b>
       </a>
