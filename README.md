@@ -119,6 +119,12 @@ This ERD was reverse-engineered from the actual SQL schema using MySQL Workbench
 
 ---
 
+## 📬 Contact
+
+For questions or feedback, reach out to the team via **GitHub Issues**
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**. Feel free to use, modify, or build upon it.
